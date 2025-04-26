@@ -1,0 +1,14 @@
+C:\Users\bulyn\Documents\paralel-prog\Control_work\bin\Debug\net9.0\Control_work.exe
+C:\Users\bulyn\Documents\paralel-prog\Control_work\bin\Debug\net9.0\Control_work.deps.json
+C:\Users\bulyn\Documents\paralel-prog\Control_work\bin\Debug\net9.0\Control_work.runtimeconfig.json
+C:\Users\bulyn\Documents\paralel-prog\Control_work\bin\Debug\net9.0\Control_work.dll
+C:\Users\bulyn\Documents\paralel-prog\Control_work\bin\Debug\net9.0\Control_work.pdb
+C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\Control_work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\Control_work.AssemblyInfoInputs.cache
+C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\Control_work.AssemblyInfo.cs
+C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\Control_work.csproj.CoreCompileInputs.cache
+C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\Control_work.dll
+C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\refint\Control_work.dll
+C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\Control_work.pdb
+C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\Control_work.genruntimeconfig.cache
+C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\ref\Control_work.dll

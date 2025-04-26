@@ -1,0 +1,14 @@
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\bin\Debug\net9.0\DigitProductApp.exe
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\bin\Debug\net9.0\DigitProductApp.deps.json
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\bin\Debug\net9.0\DigitProductApp.runtimeconfig.json
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\bin\Debug\net9.0\DigitProductApp.dll
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\bin\Debug\net9.0\DigitProductApp.pdb
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\obj\Debug\net9.0\DigitProductApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\obj\Debug\net9.0\DigitProductApp.AssemblyInfoInputs.cache
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\obj\Debug\net9.0\DigitProductApp.AssemblyInfo.cs
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\obj\Debug\net9.0\DigitProductApp.csproj.CoreCompileInputs.cache
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\obj\Debug\net9.0\DigitProductApp.dll
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\obj\Debug\net9.0\refint\DigitProductApp.dll
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\obj\Debug\net9.0\DigitProductApp.pdb
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\obj\Debug\net9.0\DigitProductApp.genruntimeconfig.cache
+C:\Users\bulyn\Documents\paralel-prog\laba\DigitProductApp\obj\Debug\net9.0\ref\DigitProductApp.dll
