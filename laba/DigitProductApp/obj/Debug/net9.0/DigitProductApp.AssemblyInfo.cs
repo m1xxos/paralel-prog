@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DigitProductApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d79171500dfc059c0fb0a62dc9d17c78513eb26e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DigitProductApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DigitProductApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

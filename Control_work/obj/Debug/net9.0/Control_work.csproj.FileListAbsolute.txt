@@ -12,3 +12,4 @@ C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\refint\Contr
 C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\Control_work.pdb
 C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\Control_work.genruntimeconfig.cache
 C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\ref\Control_work.dll
+C:\Users\bulyn\Documents\paralel-prog\Control_work\obj\Debug\net9.0\Control_work.sourcelink.json
