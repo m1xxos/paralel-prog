@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 class Program
 {
-    // Метод для асинхронного получения содержимого сайта
+    
     public static async Task<string> FetchSiteAsync(string url)
     {
         using (HttpClient client = new HttpClient())
@@ -17,26 +17,34 @@ class Program
         }
     }
 
-    // Метод для подсчета количества вхождений тега <div> в HTML-странице
+    
     public static int CountDivTags(string htmlContent)
     {
-        // Используем регулярное выражение для поиска всех тегов <div>
         Regex regex = new Regex("<div[^>]*>");
         MatchCollection matches = regex.Matches(htmlContent);
         return matches.Count;
     }
 
-    // Метод для последовательного опроса сайтов и подсчета тегов <div>
-    public static async Task SequentialRequestsAsync(string[] urls)
+    
+    public static async Task ParallelRequestsAsync(string[] urls)
     {
+        
+        var fetchTasks = new Task<string>[urls.Length];
+        for (int i = 0; i < urls.Length; i++)
+        {
+            fetchTasks[i] = FetchSiteAsync(urls[i]);
+        }
+
+        
+        var results = await Task.WhenAll(fetchTasks);
+
         int totalDivCount = 0;
 
-        foreach (var url in urls)
+        for (int i = 0; i < results.Length; i++)
         {
-            string result = await FetchSiteAsync(url);
-            int divCount = CountDivTags(result);
+            int divCount = CountDivTags(results[i]);
             totalDivCount += divCount;
-            Console.WriteLine($"На сайте {url} найдено {divCount} тегов <div>.");
+            Console.WriteLine($"На сайте {urls[i]} найдено {divCount} тегов <div>.");
         }
 
         Console.WriteLine($"Общее количество тегов <div> на всех сайтах: {totalDivCount}");
@@ -53,12 +61,12 @@ class Program
             "https://github.com/moby/moby"
         };
 
-        // Засекаем время выполнения
+        
         Stopwatch stopwatch = new Stopwatch();
         stopwatch.Start();
 
-        // Запуск асинхронного запроса и подсчета тегов <div>
-        await SequentialRequestsAsync(urls);
+        
+        await ParallelRequestsAsync(urls);
 
         stopwatch.Stop();
         Console.WriteLine($"Время выполнения запросов: {stopwatch.ElapsedMilliseconds} мс");
